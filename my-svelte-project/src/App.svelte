@@ -6,6 +6,7 @@
 	import MyHeader from "./components/MyHeader.svelte";
 	import MyInfo from "./components/MyInfo.svelte";
 	import LogicPractice from "./components/LogicPractice.svelte";
+	import IterablePractice from "./components/IterablePractice.svelte";
 
 	let name = "world";
 	// name = name.toUpperCase();
@@ -38,3 +39,4 @@
 <!-- <MyInfo name={info.name} age={info.age} sex={info.sex}/> -->
 <MyInfo {...info} />
 <LogicPractice />
+<IterablePractice />
