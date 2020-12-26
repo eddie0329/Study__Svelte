@@ -5,6 +5,7 @@
 	import Numbers from "./components/Numbers.svelte";
 	import MyHeader from "./components/MyHeader.svelte";
 	import MyInfo from "./components/MyInfo.svelte";
+	import LogicPractice from "./components/LogicPractice.svelte";
 
 	let name = "world";
 	// name = name.toUpperCase();
@@ -36,3 +37,4 @@
 <MyHeader title={'Sam'} />
 <!-- <MyInfo name={info.name} age={info.age} sex={info.sex}/> -->
 <MyInfo {...info} />
+<LogicPractice />
