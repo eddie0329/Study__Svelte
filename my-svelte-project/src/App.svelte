@@ -7,6 +7,7 @@
 	import MyInfo from "./components/MyInfo.svelte";
 	import LogicPractice from "./components/LogicPractice.svelte";
 	import IterablePractice from "./components/IterablePractice.svelte";
+	import AsyncPractice from './components/AsyncPractice.svelte';
 
 	let name = "world";
 	// name = name.toUpperCase();
@@ -26,6 +27,7 @@
 	}
 </style>
 
+<AsyncPractice />
 <h1>Hello {name.toUpperCase()}</h1>
 <img {src} alt="logo" />
 <MyButton />
