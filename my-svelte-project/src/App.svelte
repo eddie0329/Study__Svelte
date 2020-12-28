@@ -8,6 +8,7 @@
 	import LogicPractice from "./components/LogicPractice.svelte";
 	import IterablePractice from "./components/IterablePractice.svelte";
 	import AsyncPractice from './components/AsyncPractice.svelte';
+	import EventPractice from './components/EventPractice.svelte';
 
 	let name = "world";
 	// name = name.toUpperCase();
@@ -39,6 +40,7 @@
 <Counter2 />
 <MyHeader title={'Sam'} />
 <!-- <MyInfo name={info.name} age={info.age} sex={info.sex}/> -->
-<MyInfo {...info} />
+<MyInfo {...info} aria-label="my-info" />
 <LogicPractice />
 <IterablePractice />
+<EventPractice />

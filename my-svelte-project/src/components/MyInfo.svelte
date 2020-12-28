@@ -2,6 +2,8 @@
   export let name;
   export let age;
   export let sex;
+
+  console.log($$restProps);
 </script>
 
 <ul>
